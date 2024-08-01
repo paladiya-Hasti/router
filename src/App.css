@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(245, 242, 242);
+}
+.nav{
+   background-color: lightgray;
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+}
+.nav .side{
+    padding: 20px 40px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(58, 57, 57);
+    text-decoration: none;
+}
+.nav .side:hover{
+    font-weight: 700;
+    color: black;
+}
+.box{
+    text-align: center;
+}
