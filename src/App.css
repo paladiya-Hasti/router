@@ -13,7 +13,7 @@ body{
    padding: 15px;
 }
 .nav .side{
-    padding: 20px 40px;
+    padding: 10px 20px;
     font-size: 20px;
     text-align: center;
     color: rgb(58, 57, 57);
@@ -23,6 +23,17 @@ body{
     font-weight: 700;
     color: black;
 }
-.box{
-    text-align: center;
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    
+}
+#products div img{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+img{
+    height: 200px;
+    width: 200px;
 }

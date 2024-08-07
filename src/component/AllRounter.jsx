@@ -5,6 +5,7 @@ import Sign from "../Page/Sign";
 import Login from "../Page/Login";
 import Home from "../Page/Home";
 import Error from "../Page/Error";
+import SingleProduct from "../Page/SingleProduct";
 
 const AllRounter = () => {
   return (
@@ -15,6 +16,7 @@ const AllRounter = () => {
         <Route path="/Sign" element={<Sign />} />
         <Route path="/Login" element={<Login />} />
         <Route path="*" element={<Error/>}/>
+        <Route path="/product/:id" element={<SingleProduct/>}/>
       </Routes>
     </div>
   );
